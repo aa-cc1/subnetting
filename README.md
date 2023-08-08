@@ -3,6 +3,7 @@
 </p>
 
 This is a compliation of subnetting and binary practice exercises. 
+
 #
 
 
@@ -11,16 +12,19 @@ This is a compliation of subnetting and binary practice exercises.
 Host: 4094   
 Host per Subnet: 16
 
-Explanation: The Subnet Mask: 255.255.240.0 or /20 was converted into binary as such 11111111.11111111.11110000.00000000 .   
-There are twenty 1's that represent the Subnet and twelve 0's that represent the Host.   
+**Explanation:** The Subnet Mask: 255.255.240.0 or /20 was converted into binary as such 11111111.11111111.11110000.00000000 .   
+There are twenty 1's that represent the Subnet and twelve 0's that represent the Host.  
+
 The calculation for Subnets: 2^4 = 2*2*2*2 = 16 . The calculation for Hosts: 2^12 - 2 = 2*2*2*2*2*2*2*2*2*2*2*2 - 2 = 8 -2 = 6 
+<p align="center">
+<img src="Exercise 1.png"/>   
 
 
 **2. Enter the first valid host on the network 192.168.182.16/29**
    
 First Host: 192.168.17   
 
-Explanation: The Subnet is displayed as /29 and converted to binary looks like:   
+**Explanation:** The Subnet is displayed as /29 and converted to binary looks like:   
 
 Subnet Mask in decimal:   255.     255.     255.     248   
 Subnet Mask in binary: 11111111.11111111.11111111.11111000 
@@ -38,13 +42,15 @@ The calculation for Subnets: 2^5 = 2*2*2*2*2 = 32 . The calculation for Hosts: 2
 Last Host: 192.168.182.22   
 Broadcast: 192.168.182.23   
 Next Subnet: 192.168.182.24
+<p align="center">
+<img src="Exercise 2.png"/>   
 
 
 **3. Enter the subnet the host 172.19.160.163  255.255.255.248 belongs to**
 
 Subnet: 172.19.160.160     
 
-Explanation: The Subnet Mask is 255.255.255.248 and converted to binary looks like: x.x.x.11111000 . This already lets me know that we'll be working with only the last octect. Let's convert the Host. We should get something along the lines of: x.x.x.10100011 . Looking at the Subnet Mask as /29 leaves three 0's for the Host.   
+**Explanation:** The Subnet Mask is 255.255.255.248 and converted to binary looks like: x.x.x.11111000 . This already lets me know that we'll be working with only the last octect. Let's convert the Host. We should get something along the lines of: x.x.x.10100011 . Looking at the Subnet Mask as /29 leaves three 0's for the Host.   
 
 The calculation for Subnets: 2^5 = 2*2*2*2*2 = 32 . The calculation for Hosts: 2^3 - 2 = 2*2*2 - 2 = 8 -2 = 6   
 
@@ -58,16 +64,21 @@ Network ID: 172.19.160.160
 First Host: 172.19.160.161   
 Last Host:  172.19.160.166   
 Broascast: 172.19.160.167   
+<p align="center">
+<img src="Exercise 3.png"/>   
 
+   
 **4. What is the Subnet Mask corresponding to a shorthand of /19?**
 
    Subnet Mask: 255.255.224.0
 
-   Explanation: There are 32 bits in IPv4 binary and /19 let us know that there are nineteen 1's so there must be thirteen 0's.
+   **Explanation:** There are 32 bits in IPv4 binary and /19 let us know that there are nineteen 1's so there must be thirteen 0's.
    In binary, it should look something like: 11111111.11111111.11100000.00000 and converted to decimal will be 255.255.224.0 .   
+<p align="center">
+<img src="Exercise 4.png"/>   
 
 
-
+#
 If your interested in trying some out yourself, head over to Subnetting.net (www.subnetting.net) .
 
 
