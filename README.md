@@ -1,3 +1,7 @@
+<p align="center">
+<img src="Binary Chart.png"/>
+</p>   
+
 
 # Subnetting Scenarios
 </p>
