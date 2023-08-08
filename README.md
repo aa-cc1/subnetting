@@ -1,6 +1,6 @@
 # Subnetting Scenarios
 
-In this tutorial is a compliation of subnetting questions/scenarios to divide a network. 
+In this tutorial is a compliation of subnetting and binary problems. 
 #
 
 
@@ -15,4 +15,6 @@ The calculation for Subnets: 2^4 = 2*2*2*2 = 16 . The calculation for Hosts: 2^1
 
 2. Enter the first valid host on the network 192.168.182.16/29
    
-First Host: 192.168.17
+First Host: 192.168.17   
+
+Explanation: 
