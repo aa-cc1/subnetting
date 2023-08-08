@@ -1,10 +1,12 @@
-# Subnetting Scenarios
 
-In this tutorial is a compliation of subnetting and binary practice exercises. 
+# Subnetting Scenarios
+</p>
+
+This is a compliation of subnetting and binary practice exercises. 
 #
 
 
-1. Enter the maximum number of valid subnets and usable hosts per subnet that you can get from the network 172.27.0.0 255.255.240.0
+**1. Enter the maximum number of valid subnets and usable hosts per subnet that you can get from the network 172.27.0.0 255.255.240.0**
    
 Host: 4094   
 Host per Subnet: 16
@@ -14,7 +16,7 @@ There are twenty 1's that represent the Subnet and twelve 0's that represent the
 The calculation for Subnets: 2^4 = 2*2*2*2 = 16 . The calculation for Hosts: 2^12 - 2 = 2*2*2*2*2*2*2*2*2*2*2*2 - 2 = 8 -2 = 6 
 
 
-2. Enter the first valid host on the network 192.168.182.16/29
+**2. Enter the first valid host on the network 192.168.182.16/29**
    
 First Host: 192.168.17   
 
@@ -38,7 +40,7 @@ Broadcast: 192.168.182.23
 Next Subnet: 192.168.182.24
 
 
-3. Enter the subnet the host 172.19.160.163  255.255.255.248 belongs to
+**3. Enter the subnet the host 172.19.160.163  255.255.255.248 belongs to**
 
 Subnet: 172.19.160.160     
 
@@ -57,14 +59,18 @@ First Host: 172.19.160.161
 Last Host:  172.19.160.166   
 Broascast: 172.19.160.167   
 
-4. What is the Subnet Mask corresponding to a shorthand of /19?
+**4. What is the Subnet Mask corresponding to a shorthand of /19?**
 
    Subnet Mask: 255.255.224.0
 
    Explanation: There are 32 bits in IPv4 binary and /19 let us know that there are nineteen 1's so there must be thirteen 0's.
    In binary, it should look something like: 11111111.11111111.11100000.00000 and converted to decimal will be 255.255.224.0 .   
 
-5. 
+
+
+If your interested in trying some out yourself, head over to Subnetting.net (www.subnetting.net) .
+
+
 
 
 
